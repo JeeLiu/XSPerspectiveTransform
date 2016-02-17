@@ -1,1 +1,6 @@
-# XSPerspectiveTransform
+# 自定义转场动画实现淘宝弹出效果
+
+
+自定义 UIPresentationController，UIViewControllerTransitioningDelegate，UIViewControllerAnimatedTransitioning，调用presentViewController:animated:completion:方式，实现淘宝弹出效果。
+
+
