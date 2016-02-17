@@ -12,6 +12,12 @@
 
 ###使用方法
 
+拷贝XSCustomPresentationController 自定义转场效果的类到工程。
+
+在presentedViewController 可以设置preferredContentSize；
+
+在调用presentViewController:animated:completion: 之前设置 presentedViewController.transitioningDelegate 即可实现。
+
 
 
 
